@@ -484,7 +484,7 @@ cat db_BC_repeatmodeler-families.fa Diptera.Repbase.2020.lib > db_BC_repeatmodel
 
 In total, 36.36% of bases were masked.
 
-***RNAseq mapping***
+**RNAseq mapping**
 
 I used STAR to map:
 ```
@@ -499,7 +499,7 @@ do
 done
 ```
 
-***Running BRAKER2***
+**Running BRAKER2**
 
 As usual, this was a nightmare and it took a lot of fiddling to get it to run (specifying software paths etc)
 
@@ -525,14 +525,5 @@ grep -w "IV" augustus.hints.gff3 | grep "gene" | wc -l # 6730
 grep -w "X" augustus.hints.gff3 | grep "gene" | wc -l # 3881
 grep -w "Inversion" augustus.hints.gff3 | grep "gene" | wc -l # 3470
 ```
-
-
-
-
-
-
-
-
-
 
 
